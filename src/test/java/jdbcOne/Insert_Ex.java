@@ -18,6 +18,7 @@ public class Insert_Ex
                     st.executeUpdate("insert into pd values(8,'Crack Jack',15,'15pc')");
                     st.executeUpdate("insert into pd values(10,'Dairy Rich',25,'10pc')");
                     st.executeUpdate("insert into pd values(20,'Five Star',5,'15pc')");
+                    st.executeUpdate("insert into pd values(89,'Gurreo',500,'15pc')");
                    System.out.println("Inserted the data successfully into the table");
                     c.close();
     }
