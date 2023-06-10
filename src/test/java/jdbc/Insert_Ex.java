@@ -16,6 +16,7 @@ public class Insert_Ex
             st.executeUpdate("insert into test values(2,'Benny')");
             st.executeUpdate("insert into test values(3,'Clara')");
             st.executeUpdate("insert into test values(4,'Dia')");
+            st.executeUpdate("insert into test values(5,'Emma')");
             System.out.println("Data inserted successfully");
                 con.close();
 
