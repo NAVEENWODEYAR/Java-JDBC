@@ -14,12 +14,13 @@ public class Insert_Ex
         Statement st = c.createStatement();
                     st.executeUpdate("insert into pd values(2,'Dairy Milk',40,'1pc')");
                     st.executeUpdate("insert into pd values(4,'Oreo',25,'1pc')");
-                    st.executeUpdate("insert into pd values(6,'Goodday',10,'10pc')");
+                    st.executeUpdate("insert into pd values(6,'GoodDay',10,'10pc')");
                     st.executeUpdate("insert into pd values(8,'Crack Jack',15,'15pc')");
                     st.executeUpdate("insert into pd values(10,'Dairy Rich',25,'10pc')");
                     st.executeUpdate("insert into pd values(20,'Five Star',5,'15pc')");
                     st.executeUpdate("insert into pd values(89,'Gurreo',500,'15pc')");
                     st.executeUpdate("insert into pd values(23,'Cookies',98,'19pc')");
+                    st.executeUpdate("insert into pd values(89,'Cookies',98,'19pc')");
                    System.out.println("Inserted the data successfully into the table");
                     c.close();
     }
