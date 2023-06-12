@@ -25,6 +25,7 @@ public class Table
 
         // Insert the data..,
         st.executeUpdate("insert into school values(1011,'Berlin School of Excellence','Berlin')");
+        st.executeUpdate("insert into school values(2811,'Oxford School of Excellence','Kentucky')");
 
         // 5. Close the connection
         c.close();

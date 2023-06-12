@@ -16,7 +16,7 @@ public class Select_Ex
                             while(rs.next())
                             {
                                 String n = rs.getString("pname");
-                                System.out.println("Product Name-"+n);
+                                System.out.println("Product Name--"+n);
                             }
                 cn.close();
         }
