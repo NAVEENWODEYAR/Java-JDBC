@@ -12,7 +12,7 @@ public class Connect_Ex
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/javadb2","root","boss");
         Statement st = cn.createStatement();
-                st.executeUpdate("create table test(id int,name varchar(20))");
+                st.executeUpdate("create table test1111(id int,name varchar(20))");
                 System.out.println("Successfully created the table");
                 cn.close();
     }
