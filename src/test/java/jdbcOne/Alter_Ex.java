@@ -12,8 +12,8 @@ public class Alter_Ex
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/today","root","boss");
         Statement st = cnn.createStatement();
-                    st.executeUpdate("Rename table product To pd");
-                    System.out.println("Table name updated");
+                    st.executeUpdate("Rename table product To pd.,");
+                    System.out.println("Table name updated.,");
                     cnn.close();
     }
 }
